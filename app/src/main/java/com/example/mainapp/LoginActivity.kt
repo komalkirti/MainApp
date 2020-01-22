@@ -26,7 +26,7 @@ class LoginActivity : AppCompatActivity() {
     private var btnCreateAccount: Button? = null
     private var mProgressBar: ProgressDialog? = null
     //Firebase references
-    private var mAuth: FirebaseAuth? = null
+   // private var mAuth: FirebaseAuth? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -41,7 +41,7 @@ class LoginActivity : AppCompatActivity() {
         btnLogin = findViewById<View>(R.id.btn_login) as Button
         btnCreateAccount = findViewById<View>(R.id.btn_register_account) as Button
         mProgressBar = ProgressDialog(this)
-        mAuth = FirebaseAuth.getInstance()
+      //  mAuth = FirebaseAuth.getInstance()
         tvForgotPassword!!
             .setOnClickListener {
                 startActivity(

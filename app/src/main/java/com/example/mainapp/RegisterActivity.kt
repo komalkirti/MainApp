@@ -46,7 +46,7 @@ class RegisterActivity : AppCompatActivity() {
         mProgressBar = ProgressDialog(this)
         mDatabase = FirebaseDatabase.getInstance()
         mDatabaseReference = mDatabase!!.reference!!.child("Users")
-        mAuth = FirebaseAuth.getInstance()
+       // mAuth = FirebaseAuth.getInstance()
         btnCreateAccount!!.setOnClickListener { createNewAccount() }
     }
 
