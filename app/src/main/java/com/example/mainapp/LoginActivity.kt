@@ -26,7 +26,7 @@ class LoginActivity : AppCompatActivity() {
     private var btnCreateAccount: Button? = null
     private var mProgressBar: ProgressDialog? = null
     //Firebase references
-   // private var mAuth: FirebaseAuth? = null
+    private var mAuth: FirebaseAuth? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -18,7 +18,7 @@ class ForgotPasswordActivity : AppCompatActivity() {
     private var etEmail: EditText? = null
     private var btnSubmit: Button? = null
     //Firebase references
-  //  private var mAuth: FirebaseAuth? = null
+   private var mAuth: FirebaseAuth? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
